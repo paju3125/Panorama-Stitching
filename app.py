@@ -1,5 +1,6 @@
 import cv2
 import streamlit as st
+st.set_option('deprecation.showfileUploaderEncoding', False)
 import numpy as np
 import imutils
 from PIL import Image
