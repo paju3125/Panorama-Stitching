@@ -140,4 +140,4 @@ if uploaded_images is not None and len(uploaded_images) == 2:
     # st.subheader("KeyPoint Matches")
     # st.image(vis, use_column_width=True)
 else:
-    st.warning("Please upload exactly two images for stitching.")
+    st.warning("Please upload exactly two images for stitching (Sequentially).")
